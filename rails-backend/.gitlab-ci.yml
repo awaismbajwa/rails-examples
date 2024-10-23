@@ -1,0 +1,9 @@
+image: 
+
+test:
+  script:
+    - bundle install
+    - rails test
+  tags:
+    - ci
+    - docker
